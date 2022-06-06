@@ -1,0 +1,87 @@
+body{
+	font-family: Arial,sans-serif;
+	padding: 50px;
+}
+nav{
+	background: linear-gradient(to right , lightsalmon,white, orangered);
+	float: left;
+	width: 100%;
+}
+.btn{
+	background: linear-gradient(to right , lightsalmon,white, orangered);
+	width: 100%;
+	text-decoration: none;
+	padding: 10px;
+	margin: 20px;
+	background-color: orangered;
+
+}
+nav ul{
+	margin: 10px;
+	padding: 0;
+}
+nav ul li{
+	padding: 10px 10px 10px 10px;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 10px;
+	background-color: lightsalmon;
+	color: #ffff;
+	display: block;
+	border-radius: 25px;
+}
+nav ul li a:hover{
+	background-color: orangered;
+	box-shadow: 0 0 10px blue;
+	text-decoration: none;
+}
+header{
+	float: left;
+	width: 100%;
+}
+header img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;	
+}
+.content section{
+	display: inline-block;
+	width: 49%;
+	background-color: #efefef;
+	height: 400px;
+}
+h2{
+ 	 background: linear-gradient(to right , lightsalmon,white, orangered);
+     text-align: center;
+  	 padding: 10px;
+     box-shadow: 0 0 15px black;
+ 	}
+p{
+    text-align: center;    
+	}
+	.divdata{
+		padding: 10px;
+	}
+	  figure{
+            border: 2px solid black;
+            width: 380px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 5px;
+        }
+        figure:hover{
+            box-shadow: 0 0 15px black;
+        }
+        figure img{
+            width:300px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        figure figcaption{
+            padding: 10px;
+        }
